@@ -1,0 +1,30 @@
+.main-section{
+margin-top: 100px;
+}
+
+.blog-input{
+  outline: none;
+  border: 2px solid #eeee;
+  height: 40px;
+  border-radius: 4px;
+  padding: 0 5px;
+}
+.btn-blog{
+  background-color: var(--back-for-btn-blog);
+  width: 130px;
+  height: 50px;
+  font-size: 18px;
+}
+.items-in-blog{
+  border-bottom: 1px solid #eeee;
+  padding: 70px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  &:hover{
+    color: black;
+    text-decoration: none;
+  }
+}
+

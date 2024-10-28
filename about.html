@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Attari</title>
+    <link rel="stylesheet" href="assets/css/swiper.css">
+    <link rel="stylesheet" href="assets/css/hover.css">
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<!--my header start-->
+
+<header>
+
+<!--navbar start-->
+
+    <nav class="my-navbar position-relative">
+<!--        my box menu start-->
+        <div class="box-menu position-absolute d-flex flex-column">
+            <a class="items-menu align-items-baseline" href=""><div>home</div><svg
+                    viewBox="0 0 1024 1024"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+            >
+                <path d="M946.5 505L534.6 93.4a31.93 31.93 0 00-45.2 0L77.5 505c-12 12-18.8 28.3-18.8 45.3 0 35.3 28.7 64 64 64h43.4V908c0 17.7 14.3 32 32 32H448V716h112v224h265.9c17.7 0 32-14.3 32-32V614.3h43.4c17 0 33.3-6.7 45.3-18.8 24.9-25 24.9-65.5-.1-90.5z" />
+            </svg></a>
+            <a class="items-menu align-items-baseline" href=""><div>blog</div><svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+            >
+                <path d="M20.954 10.667c-.072-.322-.272-.621-.502-.745-.07-.039-.522-.088-1.004-.109-.809-.036-.898-.052-1.152-.201-.405-.237-.516-.493-.518-1.187-.002-1.327-.554-2.559-1.646-3.67-.776-.793-1.645-1.329-2.634-1.629-.236-.072-.768-.097-2.545-.118-2.787-.033-3.405.024-4.356.402-1.748.697-3.008 2.166-3.465 4.05-.087.353-.103.92-.124 4.177-.025 4.08.004 4.68.258 5.488.212.668.425 1.077.861 1.657.835 1.108 2.083 1.907 3.334 2.133.595.107 7.931.135 8.683.032 1.306-.178 2.331-.702 3.293-1.684.694-.71 1.129-1.479 1.414-2.499.117-.424.127-.63.149-3.117.017-1.878.002-2.758-.046-2.98zM8.007 8.108c.313-.316.399-.329 2.364-.329 1.764 0 1.822.004 2.081.134.375.189.538.456.538.88 0 .384-.153.653-.493.869-.184.115-.293.123-2.021.133-1.067.007-1.916-.013-2.043-.048-.669-.184-.918-1.143-.426-1.639zm7.706 8.037l-.597.098-3.114.035c-2.736.033-3.511-.018-3.652-.08-.288-.124-.554-.472-.602-.78-.042-.292.104-.696.33-.9.285-.257.409-.266 3.911-.27 3.602-.002 3.583-.003 3.925.315.482.45.381 1.251-.201 1.582z" />
+            </svg></a>
+            <a class="items-menu align-items-baseline" href=""><div>contact</div><svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+
+            >
+                <path d="M21 2H6a2 2 0 00-2 2v3H2v2h2v2H2v2h2v2H2v2h2v3a2 2 0 002 2h15a1 1 0 001-1V3a1 1 0 00-1-1zm-8 2.999c1.648 0 3 1.351 3 3A3.012 3.012 0 0113 11c-1.647 0-3-1.353-3-3.001 0-1.649 1.353-3 3-3zM19 18H7v-.75c0-2.219 2.705-4.5 6-4.5s6 2.281 6 4.5V18z" />
+            </svg></a>
+            <a class="items-menu align-items-baseline" href=""><div>about</div><svg
+                    viewBox="0 0 1024 1024"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+            >
+                <path d="M855 160.1l-189.2 23.5c-6.6.8-9.3 8.8-4.7 13.5l54.7 54.7-153.5 153.5a8.03 8.03 0 000 11.3l45.1 45.1c3.1 3.1 8.2 3.1 11.3 0l153.6-153.6 54.7 54.7a7.94 7.94 0 0013.5-4.7L863.9 169a7.9 7.9 0 00-8.9-8.9zM416.6 562.3a8.03 8.03 0 00-11.3 0L251.8 715.9l-54.7-54.7a7.94 7.94 0 00-13.5 4.7L160.1 855c-.6 5.2 3.7 9.5 8.9 8.9l189.2-23.5c6.6-.8 9.3-8.8 4.7-13.5l-54.7-54.7 153.6-153.6c3.1-3.1 3.1-8.2 0-11.3l-45.2-45z" />
+            </svg></a>
+            <a class="items-menu align-items-baseline" href="sing-up.html"><div>sing up</div><svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+                    {...props}
+            >
+                <path d="M19 3H5c-1.11 0-2 .89-2 2v4h2V5h14v14H5v-4H3v4a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2m-8.92 12.58L11.5 17l5-5-5-5-1.42 1.41L12.67 11H3v2h9.67l-2.59 2.58z" />
+            </svg></a>
+            <a class="items-menu align-items-baseline" href="login.html"><div>login</div><svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+            >
+                <path d="M19 3H5c-1.11 0-2 .89-2 2v4h2V5h14v14H5v-4H3v4a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2m-8.92 12.58L11.5 17l5-5-5-5-1.42 1.41L12.67 11H3v2h9.67l-2.59 2.58z" />
+            </svg></a>
+            <div class="close-box">
+                <svg class="close-menu"
+                        fill="currentColor"
+                        viewBox="0 0 16 16"
+                        height="6em"
+                        width="6em"
+                >
+                    <path
+                            fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L10.293 8 4.646 2.354a.5.5 0 010-.708z"
+                    />
+                </svg>
+            </div>
+        </div>
+<!--        my box menu end-->
+
+
+        <!--    my top navbar start-->
+        <div class="d-flex justify-content-between">
+            <!--    my top right navbar start-->
+            <div class="my-top-right-nav d-flex justify-content-center px-5 mt-3">
+                <!--face bok icon start-->
+                <div class="mx-3">
+                    <a href="#">
+                        <svg class="face-book-icon"
+                             viewBox="0 0 24 24"
+                             fill="currentColor"
+                             height="3.6em"
+                             width="3.6em"
+                        >
+                            <path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0014.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z" />
+                        </svg>
+                    </a>
+                </div>
+                <!--face bok icon end-->
+                <!--tweeter icon start -->
+                <div class="mx-3">
+                    <a href="#">
+                        <svg class="Twitter-icon"
+                             viewBox="0 0 1024 1024"
+                             fill="currentColor"
+                             height="3.6em"
+                             width="3.6em"
+                        >
+                            <path d="M928 254.3c-30.6 13.2-63.9 22.7-98.2 26.4a170.1 170.1 0 0075-94 336.64 336.64 0 01-108.2 41.2A170.1 170.1 0 00672 174c-94.5 0-170.5 76.6-170.5 170.6 0 13.2 1.6 26.4 4.2 39.1-141.5-7.4-267.7-75-351.6-178.5a169.32 169.32 0 00-23.2 86.1c0 59.2 30.1 111.4 76 142.1a172 172 0 01-77.1-21.7v2.1c0 82.9 58.6 151.6 136.7 167.4a180.6 180.6 0 01-44.9 5.8c-11.1 0-21.6-1.1-32.2-2.6C211 652 273.9 701.1 348.8 702.7c-58.6 45.9-132 72.9-211.7 72.9-14.3 0-27.5-.5-41.2-2.1C171.5 822 261.2 850 357.8 850 671.4 850 843 590.2 843 364.7c0-7.4 0-14.8-.5-22.2 33.2-24.3 62.3-54.4 85.5-88.2z" />
+                        </svg>
+                    </a>
+                </div>
+                <!--tweeter icon start -->
+                <!--ball icon start-->
+                <div class="mx-3">
+                    <a href="#">
+                        <svg class="ball-icon"
+                             viewBox="0 0 24 24"
+                             fill="currentColor"
+                             height="3.6em"
+                             width="3.6em"
+                        >
+                            <path d="M18.328 4.258a9.953 9.953 0 00-5.949-2.235 8.99 8.99 0 01-1.835 7.107L12 10.586l6.328-6.328zM7.701 9.115L4.258 5.672a9.938 9.938 0 00-2.112 4.704 7.007 7.007 0 005.555-1.261zm12.041-3.443L13.414 12l1.456 1.456a8.993 8.993 0 017.107-1.835 9.953 9.953 0 00-2.235-5.949zm2.112 7.952a7.007 7.007 0 00-5.555 1.261l3.443 3.443a9.924 9.924 0 002.112-4.704zM9.115 7.701a7.007 7.007 0 001.261-5.555 9.928 9.928 0 00-4.704 2.112l3.443 3.443zm4.509 14.153a9.936 9.936 0 004.704-2.111L14.885 16.3a7.003 7.003 0 00-1.261 5.554zM12 13.414l-6.328 6.328a9.953 9.953 0 005.949 2.235 8.99 8.99 0 011.835-7.107L12 13.414zm-7.742 4.914L10.586 12 9.13 10.544a8.993 8.993 0 01-7.107 1.835 9.953 9.953 0 002.235 5.949z" />
+                        </svg>
+                    </a>
+                </div>
+                <!--ball icon start-->
+                <!--be icon start-->
+                <div class="mx-3">
+                    <a href="#">
+                        <svg class="be-icon"
+                             viewBox="0 0 24 24"
+                             fill="currentColor"
+                             height="3.6em"
+                             width="3.6em"
+                        >
+                            <path d="M7.803 5.731c.589 0 1.119.051 1.605.155.483.103.895.273 1.243.508.343.235.611.547.804.939.187.387.28.871.28 1.443 0 .62-.14 1.138-.421 1.551-.283.414-.7.753-1.256 1.015.757.219 1.318.602 1.69 1.146.374.549.557 1.206.557 1.976 0 .625-.119 1.162-.358 1.613a3.11 3.11 0 01-.974 1.114 4.315 4.315 0 01-1.399.64 6.287 6.287 0 01-1.609.206H2V5.731h5.803zm-.351 4.972c.48 0 .878-.114 1.192-.345.312-.228.463-.604.463-1.119 0-.286-.051-.522-.151-.707a1.114 1.114 0 00-.417-.428 1.683 1.683 0 00-.597-.215 3.609 3.609 0 00-.697-.061H4.71v2.875h2.742zm.151 5.239c.267 0 .521-.023.76-.077.241-.052.455-.136.637-.261.182-.12.332-.283.44-.491.109-.206.162-.475.162-.798 0-.634-.179-1.085-.533-1.358-.355-.27-.831-.404-1.414-.404H4.71v3.39h2.893zm8.565-.041c.367.358.896.538 1.584.538.493 0 .919-.125 1.278-.373.354-.249.57-.515.653-.79h2.155c-.346 1.072-.871 1.838-1.589 2.299-.709.463-1.572.693-2.58.693-.702 0-1.334-.113-1.9-.337a4.033 4.033 0 01-1.439-.958 4.37 4.37 0 01-.905-1.485 5.433 5.433 0 01-.32-1.899c0-.666.111-1.289.329-1.864a4.376 4.376 0 01.934-1.493c.405-.42.885-.751 1.444-.994a4.634 4.634 0 011.858-.362c.754 0 1.413.146 1.979.44a3.967 3.967 0 011.39 1.182c.363.493.622 1.058.783 1.691.161.632.217 1.292.171 1.983h-6.431c.001.704.238 1.371.606 1.729zm2.812-4.681c-.291-.322-.783-.496-1.385-.496-.391 0-.714.065-.974.199a1.97 1.97 0 00-.62.491 1.772 1.772 0 00-.328.628 2.82 2.82 0 00-.111.587h3.982c-.058-.624-.272-1.085-.564-1.409zm-3.918-4.663h4.989v1.215h-4.989z" />
+                        </svg>
+
+                    </a>
+                </div>
+                <!--be icon start-->
+            </div>
+            <!--    my top right navbar end-->
+            <!--my top left navbar end-->
+            <div class=" my-left-top-nav d-flex justify-content-center px-5 mt-3">
+                <!--            my menu icon start-->
+                <div>
+                    <svg class="my-menu-icon"
+                         viewBox="0 0 24 24"
+                         fill="currentColor"
+                         height="3.9em"
+                         width="3.9em"
+                    >
+                        <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z" />
+                    </svg>
+                </div>
+                <!--            my menu icon end-->
+            </div>
+            <!--    my top left navbar end-->
+        </div>
+        <!--    my top navbar end-->
+
+        <!--overly for navbar start-->
+        <div class="overly-for-nav">
+
+        </div>
+        <!--overly for navbar end-->
+
+<!--        overly for box menu start-->
+        <div class="overly-for-box-menu">
+
+        </div>
+<!--        overly for box menu end-->
+
+
+        <!--    my bottom navbar-->
+        <div class=" my-bottom-nav d-flex justify-content-center mt-2">
+            <!--        items and menu start-->
+            <div class=" d-flex justify-content-between my-items-card w-50 align-items-baseline">
+                <!--            my logo start-->
+                <div>
+                    <a href="index.html"><img class="my-logo" alt="" src="assets/img%20and%20audio/logo.png"></a>
+                </div>
+                <!--            my logo end-->
+            </div>
+            <!--        items and menu end-->
+        </div>
+        <!--    my bottom navbar-->
+
+        <!--    text navbar start-->
+        <div class=" tex-in-my-navbar d-flex justify-content-center flex-column mt-5 container">
+            <h6 class="py-4 text-center">
+                Away from monotonous life
+            </h6>
+            <h1 class="py-4 text-center">
+                Magical Travel
+            </h1>
+            <h6 class="py-4 text-center">
+                If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.
+
+            </h6>
+        </div>
+        <!--    text navbar end-->
+
+    </nav>
+<!--navbar end-->
+
+</header>
+
+<!--my header end-->
+
+
+<!--my section start-->
+
+<section class="banner-in-about container">
+
+    <div class="row align-items-center">
+        <div class="col-md-6 col-12">
+            <h5 class="my-5">About Us</h5>
+            <h1 class="my-5">Who We Are?</h1>
+            <h5 class="my-5">Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</h5>
+        </div>
+        <div class="col-md-6 col-12">
+            <img alt="" class="w-100 h-100" src="assets/img%20and%20audio/about.banner.jpg">
+        </div>
+    </div>
+
+</section>
+
+<!--my section end-->
+
+
+<!--my slider section start-->
+
+<section class="d-flex flex-column py-5">
+
+<!--my top text start    -->
+    <h1 class="mt-2">Latest from Our Blog</h1>
+    <p class="mt-2"> With the exception of Nietzsche, no other madman has contributed so much to human sanity as has.</p>
+<!--my top text end    -->
+
+<!--my slider start-->
+
+    <div class="swiper mySwiper container">
+        <div class="swiper-wrapper mb-5">
+            <div class="swiper-slide flex-column"><img alt="img" class="w-75 my-5 h-75" src="assets/img%20and%20audio/f1.jpg"> <p> food </p> </div>
+            <div class="swiper-slide flex-column"><img alt="img" class="w-75 my-5 h-75" src="assets/img%20and%20audio/f3.jpg"> <p> cruise </p> </div>
+            <div class="swiper-slide flex-column"><img alt="img" class="w-75 my-5 h-75" src="assets/img%20and%20audio/f2.jpg"> <p> to do list</p> </div>
+            <div class="swiper-slide flex-column"><img alt="img" class="w-75 my-5 h-75" src="assets/img%20and%20audio/f4.jpg"> <p> car </p> </div>
+            <div class="swiper-slide flex-column"><img alt="img" class="w-75 my-5 h-75" src="assets/img%20and%20audio/d1.jpg"> <p> Cloud Mountain </p> </div>
+            <div class="swiper-slide flex-column"><img alt="img" class="w-75 my-5 h-75" src="assets/img%20and%20audio/eng.jpg"> <p> my job</p> </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+<!--my slider end-->
+
+</section>
+
+<!--my slider section end-->
+
+
+
+
+<!--footer start-->
+
+<footer class="my-footer">
+    <div class="row text-center">
+<!--   my forms and email start     -->
+     <div class=" items-in-footer col-md-4 col-sm-6 col-12 flex-column">
+         <h1>Newsletter</h1>
+         <p>For business professionals caught between high OEM price and mediocre print and graphic output.</p>
+         <form>
+             <div>
+                 <label>
+                     <input class="form-control my-inp" type="email" placeholder="Enter Your Email">
+                 </label>
+                 <button class="btn bg-primary"><svg
+                         fill="currentColor"
+                         viewBox="0 0 16 16"
+                         height="2.5em"
+                         width="2.5em"
+                 >
+                     <path d="M15.854.146a.5.5 0 01.11.54l-5.819 14.547a.75.75 0 01-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 01.124-1.33L15.314.037a.5.5 0 01.54.11zM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493z" />
+                 </svg></button>
+             </div>
+         </form>
+     </div>
+<!--   my forms and email end     -->
+
+<!--        my a tag start-->
+     <div class=" items-in-footer col-md-4 col-sm-6 col-12">
+         <h1>
+             Navigation Links
+        </h1>
+<!--         my a tag start-->
+         <div class="a-tag d-flex flex-column">
+            <a href="">home <svg
+                    viewBox="0 0 1024 1024"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+            >
+                <path d="M946.5 505L534.6 93.4a31.93 31.93 0 00-45.2 0L77.5 505c-12 12-18.8 28.3-18.8 45.3 0 35.3 28.7 64 64 64h43.4V908c0 17.7 14.3 32 32 32H448V716h112v224h265.9c17.7 0 32-14.3 32-32V614.3h43.4c17 0 33.3-6.7 45.3-18.8 24.9-25 24.9-65.5-.1-90.5z" />
+            </svg></a>
+            <a href="">feature <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+            >
+                <path d="M4 21h1V8H4a2 2 0 00-2 2v9a2 2 0 002 2zM20 8h-7l1.122-3.368A2 2 0 0012.225 2H12L7 7.438V21h11l3.912-8.596L22 12v-2a2 2 0 00-2-2z" />
+            </svg></a>
+            <a href="">blog <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+            >
+                <path d="M20.954 10.667c-.072-.322-.272-.621-.502-.745-.07-.039-.522-.088-1.004-.109-.809-.036-.898-.052-1.152-.201-.405-.237-.516-.493-.518-1.187-.002-1.327-.554-2.559-1.646-3.67-.776-.793-1.645-1.329-2.634-1.629-.236-.072-.768-.097-2.545-.118-2.787-.033-3.405.024-4.356.402-1.748.697-3.008 2.166-3.465 4.05-.087.353-.103.92-.124 4.177-.025 4.08.004 4.68.258 5.488.212.668.425 1.077.861 1.657.835 1.108 2.083 1.907 3.334 2.133.595.107 7.931.135 8.683.032 1.306-.178 2.331-.702 3.293-1.684.694-.71 1.129-1.479 1.414-2.499.117-.424.127-.63.149-3.117.017-1.878.002-2.758-.046-2.98zM8.007 8.108c.313-.316.399-.329 2.364-.329 1.764 0 1.822.004 2.081.134.375.189.538.456.538.88 0 .384-.153.653-.493.869-.184.115-.293.123-2.021.133-1.067.007-1.916-.013-2.043-.048-.669-.184-.918-1.143-.426-1.639zm7.706 8.037l-.597.098-3.114.035c-2.736.033-3.511-.018-3.652-.08-.288-.124-.554-.472-.602-.78-.042-.292.104-.696.33-.9.285-.257.409-.266 3.911-.27 3.602-.002 3.583-.003 3.925.315.482.45.381 1.251-.201 1.582z" />
+            </svg></a>
+            <a href="">contact <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+
+            >
+                <path d="M21 2H6a2 2 0 00-2 2v3H2v2h2v2H2v2h2v2H2v2h2v3a2 2 0 002 2h15a1 1 0 001-1V3a1 1 0 00-1-1zm-8 2.999c1.648 0 3 1.351 3 3A3.012 3.012 0 0113 11c-1.647 0-3-1.353-3-3.001 0-1.649 1.353-3 3-3zM19 18H7v-.75c0-2.219 2.705-4.5 6-4.5s6 2.281 6 4.5V18z" />
+            </svg></a>
+            <a href="">team <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+            >
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path d="M12 11a5 5 0 015 5v6h-2v-6a3 3 0 00-2.824-2.995L12 13a3 3 0 00-2.995 2.824L9 16v6H7v-6a5 5 0 015-5zm-6.5 3c.279 0 .55.033.81.094a5.947 5.947 0 00-.301 1.575L6 16v.086a1.492 1.492 0 00-.356-.08L5.5 16a1.5 1.5 0 00-1.493 1.356L4 17.5V22H2v-4.5A3.5 3.5 0 015.5 14zm13 0a3.5 3.5 0 013.5 3.5V22h-2v-4.5a1.5 1.5 0 00-1.356-1.493L18.5 16c-.175 0-.343.03-.5.085V16c0-.666-.108-1.306-.309-1.904A3.42 3.42 0 0118.5 14zm-13-6a2.5 2.5 0 110 5 2.5 2.5 0 010-5zm13 0a2.5 2.5 0 110 5 2.5 2.5 0 010-5zm-13 2a.5.5 0 100 1 .5.5 0 000-1zm13 0a.5.5 0 100 1 .5.5 0 000-1zM12 2a4 4 0 110 8 4 4 0 010-8zm0 2a2 2 0 100 4 2 2 0 000-4z" />
+            </svg></a>
+         </div>
+<!--         my a tag start-->
+
+     </div>
+<!--        my a tag end-->
+
+<!--my text in footer start        -->
+        <div class=" items-in-footer col-md-4 col-sm-6 col-12">
+         <h1>
+             About Agency
+        </h1>
+         <p>
+             The world has become so fast-paced that people don’t want to stand by reading a page of information, they would much rather look at a presentation and understand the message. It has come to a point
+         </p>
+     </div>
+<!--my text in footer start        -->
+    </div>
+</footer>
+
+<!--footer end-->
+
+
+
+
+
+
+
+<script src="assets/js/jquery-3.7.1.min.js"></script>
+<script src="assets/js/swiper.js"></script>
+<script src="assets/js/my.javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+
+@media screen and (max-width: 1060px){
+  .product{
+    display: block !important;
+    .my-sug{
+      text-align: center !important;
+      display: flex;
+      justify-content: center;
+    }
+    .my-ls{
+      text-align: center !important;
+      display: flex !important;
+      justify-content: center !important;
+    }
+  }
+}
